@@ -13,7 +13,7 @@ const Weatherdisplay = ({weather}) => {
       <Weatherdescription description={weather.currently.summary} />
       <Temperature temperature={weather.currently.temperature} />
     </div>
-  )
+  );
 };
 
 export default Weatherdisplay;
