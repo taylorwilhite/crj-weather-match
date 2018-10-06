@@ -5,7 +5,7 @@ const Location = ({location}) => {
     <div className="weather-location">
       <p>{location}</p>
     </div>
-  )
-}
+  );
+};
 
 export default Location;

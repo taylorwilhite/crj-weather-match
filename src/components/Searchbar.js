@@ -7,6 +7,6 @@ const Searchbar = () => {
       <input type="text" placeholder="Search..." />
     </form>
   );
-}
+};
 
 export default Searchbar;

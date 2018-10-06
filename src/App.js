@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Searchbar from './components/Searchbar'
-import Weatherdisplay from './components/Weatherdisplay'
-import Musicplayer from './components/Musicplayer'
+import Searchbar from './components/Searchbar';
+import Weatherdisplay from './components/Weatherdisplay';
+import Musicplayer from './components/Musicplayer';
 
 const App = ({weather, tracks}) => {
   return (

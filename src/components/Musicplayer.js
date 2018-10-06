@@ -7,7 +7,7 @@ const Musicplayer = ({tracks}) => {
         <p>{track.name}</p>
       )}
     </div>
-  )
-}
+  );
+};
 
 export default Musicplayer;
