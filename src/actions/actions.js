@@ -1,10 +1,17 @@
-export const REQUEST_LOCATION = 'REQUEST_LOCATION';
-export const GET_LOCATION = 'GET_LOCATION';
+export const REQUEST_WEATHER = 'REQUEST_WEATHER';
+export const GET_WEATHER = 'GET_WEATHER';
+export const SELECT_LOCATION = 'SELECT_LOCATION';
 
-export const requestLocation = location => ({ 
-  type: REQUEST_LOCATION, location
+export const requestWeather = location => ({ 
+  type: REQUEST_WEATHER, location
 });
 
-export const getLocation = location => ({
-  type: GET_LOCATION, location
+export const getWeather = (location, weather) => ({
+  type: GET_WEATHER,
+  location,
+  weather: weather.weather
+});
+
+export const selectLocation = location => ({
+
 });
